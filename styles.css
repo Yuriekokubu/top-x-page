@@ -1,0 +1,27 @@
+/* styles.css */
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:first-child::before {
+  content: "🥇 ";
+}
+
+li:nth-child(2)::before {
+  content: "🥈 ";
+}
+
+li:nth-child(3)::before {
+  content: "🥉 ";
+}
